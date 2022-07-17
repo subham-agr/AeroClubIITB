@@ -62,17 +62,19 @@
     .background{
       width: 100vw;
       height: 100vh;
-      background-image: url('trivia.png');
+      background-image: url('white2.png');
+      background-size: cover;
       background-repeat: repeat-x;
       background-position: center;
+      animation: slide 30s linear infinite;
     }
 
     @keyframes slide {
       0% {
-        margin-left: -1000px;
+        background-position-x: -100px;
       }
       100% {
-        margin-left: 100%; /* The image width */
+        background-position-x: 1920px; /* The image width */
       }
     }
 
@@ -85,21 +87,21 @@
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-9">
-            <h3 class="super-class" style="text-align: center; color: black">
+            <h3 class="super-class" style="text-align: center; color: rgb(255, 255, 255)">
               <strong
                 class="super-strong"
-                style="background-color: rgb(59, 143, 196); padding: 10px"
-                >Registrations for Trivia-Jet 2.0</strong
+                style="padding: 10px; font-size: 150%; font-family: Georgia, 'Times New Roman', Times, serif;"
+                >Registrations for Trivia-Jet 3.0</strong
               >
             </h3>
             <div
               class="card mb-3 mt"
-              style="max-width: 1080px; background-color: rgba(73, 31, 31, 0.7)"
+              style="max-width: 1080px; background-color: rgba(17, 16, 16, 0.7)"
             >
               <div class="row g-0">
                 <div class="col-md-6 img-container">
                   <img
-                    src="triviajetmain-1.png"
+                    src="triviajetmain-1.jpeg"
                     alt="check your internet connections"
                     width="100%"
                   />
@@ -268,7 +270,6 @@
                           id="submit"
                           type="submit"
                           class="btn btn-primary"
-                          onclick="Alert()"
                           style="
                             background: rgb(252, 190, 43);
                             color: white;

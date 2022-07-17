@@ -9,3 +9,6 @@ jsmodel="TOfxwf Q91hve"
                     data-first-entry="0"
                     data-last-entry="1"
                     data-is-first-page="true"
+
+rgb(17 16 16 / 70%
+rgb(16 1 35 / 70%)
